@@ -6,11 +6,9 @@ const Layout = ({ children }) => {
             <Head>
                 <title>Nextjs Sandbox</title>
             </Head>
-            <main>
-                {children}
-            </main>
+            <main>{children}</main>
         </div>
-    )
-}
+    );
+};
 
-export default Layout
+export default Layout;

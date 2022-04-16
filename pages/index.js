@@ -1,10 +1,10 @@
-import Hello from '../components/Hello';
+import Hello from '../components/Mailbox';
 
 export default function Home() {
     return (
         <div>
             <div className="header">
-                <h1>CSS Variable App</h1>
+                <h1>IOT Mailbox Simulator</h1>
             </div>
             <div className="container">
                 <Hello />

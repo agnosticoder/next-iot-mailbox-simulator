@@ -1,0 +1,44 @@
+@import '../base/settings';
+
+.panel{
+    height: 20rem;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: $third;
+    box-shadow: 5px 5px 10px rgba(#000, .5);
+    overflow: auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+}
+
+.button{
+    color: $third;
+    background-color: lighten($first, 10%);
+    outline: none;
+    border: none;
+    margin: .2rem;
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px -5px;
+    transition: all .2s ease;
+    &:hover:enabled{
+        box-shadow: 0 5px 5px -3px;
+    }
+    &:disabled{
+        background-color: rgba($first, .9);
+        box-shadow: none;
+        color: rgba($third, .5);
+    }
+}
+
+.item{
+    margin: .2rem 0;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: $third;
+    background-color: $forth;
+}
